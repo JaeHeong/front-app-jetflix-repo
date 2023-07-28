@@ -67,6 +67,7 @@ jobs:
 
       - name: Update Kubernetes resources
         run: |
+          echo ${{ steps }}
           echo ${{ steps.login-ecr.outputs.registry }}
           echo ${{ steps.image-info.outputs.ecr_repository }}
           echo ${{ steps.image-info.outputs.image_tag }}
