@@ -79,6 +79,6 @@ jobs:
           cd manifests-jetflix-repo
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
-          git commit -am "Updatee image tag"
+          git commit -am "Update image tagsdf"
           git push -u origin main
 
